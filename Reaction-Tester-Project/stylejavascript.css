@@ -3,8 +3,8 @@ body{
 }
 
 #shape{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background-color: red;
   display:none;
   position: relative;
@@ -12,4 +12,24 @@ body{
 
 .bold{
   font-weight: bold;
+  font-style: italic;
+}
+.change{
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    padding: 8px;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    padding: 8px;
+}
+
+#naughty{
+    height: 200px;
 }

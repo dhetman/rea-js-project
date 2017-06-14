@@ -1,28 +1,24 @@
 <html>
 
-<head>
+    <head>
+        <meta charset="utf-8">
 
-<title>Reaction Tester</title>
+        <title>Reaction Tester</title>
 
-<link rel="stylesheet" type="text/css" href="stylejavascript.css"
+        <link rel="stylesheet" type="text/css" href="stylejavascript.css">
+    </head>
 
-<body>
-<h1>Test Your Rections</h1>
-<p>Click on the popup images quickly as you can</p>
-<p class="bold">Your time: <span id="timeTaken"</span></p>
-  <p class="bold">Your best: <span id="timeBest"></span></p>
-<div id="shape"></div>
+    <body>
+        <h1>Test Your Reactions</h1>
+        <p>Click on the popup images quickly as you can</p>
+        <button class="change green" onclick="startGame();">Start a new game</button>&nbsp;<button class="change red"onclick="resetTime();">Reset time</button>
+        <p class="bold">Your time: <span id="timeTaken">0s</span></p>
+        <p class="bold">Your best: <span id="timeBest">0s</span></p>
+        <img id="naughty" style="display:none" src="naughty.gif" />
+        <div id="shape"></div>
 
-<script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="script.js"></script>
 
-</body>
-
-
-
-
-
-</head>
-
-
+    </body>
 
 </html>
