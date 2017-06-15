@@ -1,5 +1,5 @@
 body{
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 #shape{
@@ -21,13 +21,17 @@ body{
 .green{
     background-color: green;
     color: white;
-    padding: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 19px;
 }
 
 .red{
     background-color: red;
     color: white;
-    padding: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 19px;
 }
 
 #naughty{
